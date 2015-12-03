@@ -10,7 +10,7 @@ module.exports = function (grunt) {
     jenkins.build_info(buildName, buildNumber, function(err, data) {
         console.log('jenking changes ', data);
         data.changeSet.items.forEach(function(loopItem){
-          console.log('commint : ', loopItem)
+          console.log('commint : ', loopItem);
         });
         done();
     });
