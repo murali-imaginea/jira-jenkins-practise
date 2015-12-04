@@ -8,18 +8,4 @@ first commit
 this is second commit
 
 
-this is third commit
-
-
-thisotodfgksdngkdsfg  gfg
-
-
-thisn9 sdfsdfdfg dsfs
-
-dsfsdfsdfdsf
-
-
-this is email notifier test
-
-
-thisisnfdsfdsf dsfsd sfsfsdfsdfsdf
+this is third commit 
