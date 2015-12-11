@@ -18,8 +18,10 @@ module.exports = function (grunt) {
   
   grunt.registerTask('sendmail', function(){
     var request = require('request');
+    var done = this.async();
       request('http://cassiopeia.ads.autodesk.com:8080/view/wip1fqa/job/Deploy-wip1fqa-JiraIssueReport/buildWithParameters?token=murali&jobname=test&buildno=14', function (error, response, body) {
-        console.log('Invoked sending Mail JOB in remote');
+        console.log('Invoked sending Mail JOB in remote', err, response.statusCode);
+        done();
       })
   });
 };
